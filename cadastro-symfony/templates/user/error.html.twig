@@ -1,0 +1,16 @@
+{% extends "base.html.twig" %}
+
+{% block topo %}
+    <div class="topo"><img src="{{ asset('img/logo.png') }}"></div>
+{% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+{% endblock %}
+
+{% block title %}Cadastro de Usuarios{% endblock %}
+
+{# Formulário de cadastro de usuario #}   
+{% block body %}
+    <p class="msgErro">Ops Falha ao cadastrar o usuario <strong>{{ User}}</strong></p>
+{% endblock %}

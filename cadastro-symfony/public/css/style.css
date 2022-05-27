@@ -1,0 +1,24 @@
+html,body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.topo{
+    background-color: rgb(255, 79, 79);
+}
+
+img {
+    width: 140px;
+    height: 100px;
+}
+
+.msgSucesso{
+    font-size: 25;
+    color:greenyellow;
+}
+
+.msgErro{
+    font-size: 25;
+    color:red;
+}
